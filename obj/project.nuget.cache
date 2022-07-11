@@ -1,8 +1,37 @@
 {
   "version": 2,
-  "dgSpecHash": "IHjxR8nPdLIFt2+nseHWr10GcKhoWkRIMUG03rQxuL9JpRPJE6XlojBZU9CKn08mpjAvZvhhBcnyGiOtt6qFsg==",
+  "dgSpecHash": "+cMTcc+1TYK4rjXspfly9PWrcfiZT6uf1JasQz+WASVOHGMOSFpheGzvrbAEPJRPMZ8Lsr99u+XnvaofIcCWbQ==",
   "success": true,
   "projectFilePath": "/home/nironic/Рабочий стол/DarkHouse/DarkHouse/DarkHouse.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "/home/nironic/.nuget/packages/csfml/2.5.0/csfml.2.5.0.nupkg.sha512",
+    "/home/nironic/.nuget/packages/opentk/3.0.0/opentk.3.0.0.nupkg.sha512",
+    "/home/nironic/.nuget/packages/sfml.audio/2.5.0/sfml.audio.2.5.0.nupkg.sha512",
+    "/home/nironic/.nuget/packages/sfml.graphics/2.5.0/sfml.graphics.2.5.0.nupkg.sha512",
+    "/home/nironic/.nuget/packages/sfml.net/2.5.0/sfml.net.2.5.0.nupkg.sha512",
+    "/home/nironic/.nuget/packages/sfml.system/2.5.0/sfml.system.2.5.0.nupkg.sha512",
+    "/home/nironic/.nuget/packages/sfml.window/2.5.0/sfml.window.2.5.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "DarkHouse зависит от OpenTK (>= 2.5.0), но OpenTK 2.5.0 не найден. Использовано наилучшее приближенное соответствие OpenTK 3.0.0.",
+      "libraryId": "OpenTK",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"OpenTK 3.0.0\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \"net6.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "OpenTK",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
