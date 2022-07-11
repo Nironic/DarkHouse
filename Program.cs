@@ -8,14 +8,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-RenderWindow window = new RenderWindow(new VideoMode(200,200), "test");
-CircleShape cs = new CircleShape(100.0f);
-cs.FillColor = Color.Green;
+var t = VideoMode.DesktopMode;
+
+uint x = t.Width;
+uint y = t.Height;
+
+RenderWindow window = new RenderWindow(new VideoMode(x, y), "test", Styles.Fullscreen);
 window.SetActive();
 while (true)
 {
     window.Clear();
-    window.DispatchEvents();
-    window.Draw(cs);
     window.Display();
 }
